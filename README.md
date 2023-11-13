@@ -22,8 +22,8 @@ We finally evaluated Deep *k*-Means across several CNN models in terms of both c
 
 ## Dependencies
 
-Python 3.5
-* [PyTorch 0.3.1](https://pytorch.org/previous-versions/)
+Python 3.8
+* [PyTorch 1.8.1](https://pytorch.org/)
 * [libKMCUDA 6.2.1](https://github.com/src-d/kmcuda)
 * sklearn
 * numpy
@@ -44,9 +44,9 @@ Sample Visualization of Wide ResNet (Conv2)
 
 Pre-Trained Model (Before Comp.)    |  Pre-Trained Model (After Comp.)
 :-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/Sandbox3aster/Deep-K-Means-pytorch/master/visuals/Conv2%20Pre-Trained%20Model.png)  |  ![](https://raw.githubusercontent.com/Sandbox3aster/Deep-K-Means-pytorch/master/visuals/Conv2%20Pre-Trained%20Model%20(After%20Comp.).png)
+![](./visuals/Conv2_Pre-Trained_Model.png)  |  ![](./visuals/Conv2_Pre-Trained_Model_(After_Comp.).png)
 **Deep *k*-Means Re-Trained Model (Before Comp.)** | **Deep *k*-Means Re-Trained Model (After Comp.)**
-![](https://raw.githubusercontent.com/Sandbox3aster/Deep-K-Means-pytorch/master/visuals/Conv2%20Deep%20k-Means%20Re-Trained%20Model%20(Before%20Comp.).png) | ![](https://raw.githubusercontent.com/Sandbox3aster/Deep-K-Means-pytorch/master/visuals/Conv2%20Deep%20k-Means%20Re-Trained%20Model%20(After%20Comp.).png)
+![](./visuals/Conv2_Deep_k-Means_Re-Trained_Model_(Before_Comp.).png) | ![](./visuals/Conv2_Deep_k-Means_Re-Trained_Model_(After_Comp.).png)
 
 ## Citation
 
